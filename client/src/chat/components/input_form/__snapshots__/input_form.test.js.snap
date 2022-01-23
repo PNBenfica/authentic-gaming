@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="box "
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="input"
+      name="name"
+      onChange={[Function]}
+      placeholder="Username"
+      type="text"
+      value=""
+    />
+    <input
+      autoComplete="off"
+      className="input"
+      name="message"
+      onChange={[Function]}
+      placeholder="Message"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn disabled"
+      type="submit"
+    >
+      Send
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="box messages-container"
+>
+  <div
+    className="message-container"
+  >
+    <p
+      className="username"
+    >
+      Paulo
+    </p>
+    <p
+      className="message"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders no messages warning 1`] = `
+<div
+  className="box messages-container"
+>
+  No messages yet
+</div>
+`;

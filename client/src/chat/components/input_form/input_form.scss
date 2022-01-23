@@ -1,0 +1,21 @@
+.input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: solid 1px #bbb;
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  background: #d40f0f;
+  color: white;
+  border: none;
+  padding: 10px;
+
+  &.disabled {
+    background-color: #ccc;
+    cursor: default;
+  }
+}
